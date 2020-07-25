@@ -1,11 +1,14 @@
 import React from "react"
-import Header from '/components/header'
-import {Link} from 'gatsby'
+import Layout from '../components/Layout'
 
-
-export default function Home() {
-  return <div>
-      <Header />
-      <p>Alejandro's Gatsby Site!</p>
+const IndexPage = ()=> {
+  return (
+    <div>
+      <Layout>
+        <p>Alejandro's Gatsby Site!</p>
+      </Layout>
     </div>
+  )
 }
+
+export default IndexPage

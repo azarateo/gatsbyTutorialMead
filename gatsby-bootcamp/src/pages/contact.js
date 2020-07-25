@@ -1,14 +1,14 @@
 import React from 'react';
-import Header from '/components/header'
-import {Link} from 'gatsby'
+import Layout from '../components/layout'
 
 const Contacts = ()=>{
     return (
     <div>
-          <Header />
+        <Layout>
         <h1>Contact</h1>
         <p>azarateo@gmail.com</p>
-        <p>Twitter: <a href='https://twitter.com/azarateo' target='_blank'>@azarateo</a></p>
+        <p>Twitter: <a href='https://twitter.com/azarateo' target='_blank' rel="noreferrer">@azarateo</a></p>
+        </Layout>
     </div>    
     )
 }

@@ -1,14 +1,13 @@
 import React from 'react';
-import Header from '/components/header'
-import {Link} from 'gatsby'
-
+import Layout from '../components/layout'
 
 const BlogPage = ()=>{
     return (
     <div>
-        <Header />
+        <Layout>
         <h1>Blog posts</h1>
         <p>My posts will be here</p>
+        </Layout>
     </div>    
     )
 }
